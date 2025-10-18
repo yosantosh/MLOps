@@ -18,4 +18,11 @@
 4 ----> we can create attributes outside the class as well.
 
 
-5 ----> Encapsulation : 
+5 ----> Encapsulation : This concept is used t hide attributes and methods from other users but fully hide in not possible in python.
+
+
+6 ----> Getter :to get the value of hiden attributes and methods ,   setter to set the value of hidden attributes.
+        Getter and setter are here because main goal is not to fully hide the attributes data forever instead use this data and change it carefully
+
+
+7 ----> Static methods : 
