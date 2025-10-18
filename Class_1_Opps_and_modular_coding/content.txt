@@ -1,0 +1,21 @@
+1 ----> Class and objects
+
+2 ----> Functions vs method : Functions inside the class is called methods.
+
+3 ----> Self : is a object that work as mediator to store attributes of class. 
+        so when we creare object of the class then the magic method __init__ which 
+        is a contstructor methd which get called automtically and thats how attributes 
+        get initialized in self object.
+
+        So if you want any method to call automatically then initialize calling inside __init__ like self.any_method()
+
+        When we define any method then we pass self as parameter why?
+        beacause thats how python connect methods with the class and main is
+        while calling method for example like this Class.any_method()  then python automaticaclly 
+        pass the self as Argument input. 
+
+
+4 ----> we can create attributes outside the class as well.
+
+
+5 ----> Encapsulation : 
