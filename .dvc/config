@@ -1,0 +1,4 @@
+[core]
+    remote = myremort
+['remote "myremort"']
+    url = ../S3
