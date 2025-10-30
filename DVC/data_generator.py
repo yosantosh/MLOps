@@ -7,7 +7,7 @@ df = pd.DataFrame({'Name':['Santosh','Deepak','Bonty','Sunil','Tesla','Mrx'],'Ag
 path='/home/santosh/Desktop/MLOps/DVC/Data'
 os.makedirs(path,exist_ok=True)   #created a folder
 
-full_path = os.path.join('Data','data.csv')
+full_path = os.path.join(path,'data.csv')
 
 df.to_csv(full_path,index=False)
 
