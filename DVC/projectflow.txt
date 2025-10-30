@@ -1,0 +1,28 @@
+1 ----> create data_generator.py file to generate data and move inside the Data folder
+
+2 ----> Initialize the DVC by using dvc init , install it using pip intall dvc
+
+3 ----> Create S3 dir to feel AWS s3  
+
+4 ----> Assign the folder(S3) to push Data versions into this
+                            |
+                            |---> URL for AWS S3 bucket instead of this folder name
+
+5 ----> dvc remort add -d MyRemort S3      : MyRemort will be s3 server 
+
+
+        remort : to add remort storage service
+        -d     : to Choose this remort storage as default so in future dvc command it will choose it as default
+        MyRemort: Any name of that Remort storage 
+        S3      : Path of that remort storage
+
+
+
+6 ---->   dvc add Data/         : To start tracking the Data folder for all Data sets
+
+
+7 ----> git add Data.dvc     : to connect dvc with git , so that it will make md5 code for each changes in code , data will get change when code get changed.
+
+
+8 ----> dvc commit and push,   dvc will gonna add data.csv in the S3 with dvc push command 
+
