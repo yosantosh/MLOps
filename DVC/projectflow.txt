@@ -26,3 +26,17 @@
 
 8 ----> dvc commit and push,   dvc will gonna add data.csv in the S3 with dvc push command 
 
+
+9 ----> Git add-commit-push so that it will save code and data version as same , like if we want to rollback to the same code and data.
+
+
+10 ----> saved three versions of data
+
+11 ----> Roll back from version 3 to 2: just copy git shaa id for the data version 2 commit, then rollback
+        by   " git checkout shaa id"
+
+12 ---->dvc pull : But there is the problem , when git will do rollback to 2nd version commit then md5 code will change in Data.dvc
+        and dvc status will indicate that something get changed , 
+        so we need ,  "dvc pull" to rollback the data too.
+
+        : So basically we need to keep tracking Data.dvc file by git and then use "dvc pull" to pull data with md5 code written in Data.csv

@@ -1,5 +1,9 @@
 outs:
+<<<<<<< HEAD
 - md5: bf4e37718f8819d1322d4408d9836539.dir
+=======
+- md5: e71ae765824bb955518c6f91bc773836.dir
+>>>>>>> version4
   size: 64
   nfiles: 1
   hash: md5
