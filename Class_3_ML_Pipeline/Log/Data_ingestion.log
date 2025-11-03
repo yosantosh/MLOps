@@ -1,0 +1,22 @@
+2025-11-03 17:13:59,715 - DEBUG - Data Loaded from the %s
+2025-11-03 17:14:00,304 - DEBUG - Data has been saved! %s
+2025-11-03 17:14:00,307 - DEBUG - Data Ingetion has been completed successfully %s
+2025-11-03 17:20:25,247 - DEBUG - Data Loaded from the %s
+2025-11-03 17:20:25,592 - DEBUG - Data has been saved! %s
+2025-11-03 17:20:25,592 - DEBUG - Data Ingetion has been completed successfully %s
+2025-11-03 17:26:10,033 - DEBUG -Data_ingetion - Data Loaded from: https://raw.githubusercontent.com/yosantosh/MLOps/refs/heads/master/Class_3_ML_Pipeline/bank-full.csv
+2025-11-03 17:26:10,387 - DEBUG -Data_ingetion - Data has been saved to ./Data/raw
+2025-11-03 17:26:10,387 - DEBUG -Data_ingetion - Data Ingestion has been completed successfully
+2025-11-03 17:38:17,321 - DEBUG - The data has ben preprocessed successfuly %s
+2025-11-03 17:38:17,321 - ERROR - We got somekind of error while preprocessing the data cannot concatenate object of type '<class 'numpy.ndarray'>'; only Series and DataFrame objs are valid
+2025-11-03 17:38:34,865 - DEBUG - The data has ben preprocessed successfuly %s
+2025-11-03 17:38:34,865 - ERROR - We got somekind of error while preprocessing the data cannot concatenate object of type '<class 'numpy.ndarray'>'; only Series and DataFrame objs are valid
+2025-11-03 17:39:20,965 - DEBUG - The data has ben preprocessed successfuly %s
+2025-11-03 17:39:20,966 - ERROR - We got somekind of error while preprocessing the data cannot concatenate object of type '<class 'numpy.ndarray'>'; only Series and DataFrame objs are valid
+2025-11-03 17:46:36,714 - DEBUG - The data has ben preprocessed successfuly %s
+2025-11-03 17:46:36,832 - DEBUG - The data has ben preprocessed successfuly %s
+2025-11-03 17:48:15,485 - DEBUG - Data_Ingetion - The data has ben preprocessed successfuly %s
+2025-11-03 17:48:15,627 - DEBUG - Data_Ingetion - The data has ben preprocessed successfuly %s
+2025-11-03 19:28:14,894 - DEBUG - Data_ingetion - Data Loaded from: https://raw.githubusercontent.com/yosantosh/MLOps/refs/heads/master/Class_3_ML_Pipeline/bank-full.csv
+2025-11-03 19:28:15,288 - DEBUG - Data_ingetion - Data has been saved to ./Data/raw
+2025-11-03 19:28:15,289 - DEBUG - Data_ingetion - Data Ingestion has been completed successfully
